@@ -1,0 +1,45 @@
+.banner {
+  background-image: url(/images/banner.jpg);
+  width: 100%;
+  height: 400px;
+  color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-content: center;
+}
+
+.description-txt {
+  font-style: italic;
+  width: 50%;
+  justify-self: center;
+}
+
+.nav-item {
+  text-align: center;
+  width: 30%;
+}
+
+/* xl = 1200,  lg = 992,  md = 768,  sm = 576 */
+@media (max-width: 1399.98px) {
+  .nav-item {
+    width: 15%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .nav-item {
+    width: 20%;
+  }
+
+  .description-txt {
+    width: 80%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .banner .btn-primary {
+    width: 30%;
+  }
+}
